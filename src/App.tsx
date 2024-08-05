@@ -5,6 +5,10 @@ import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Overview2 from "./components/OverviewP2";
 import Users from "./components/Users";
+import Pricing from './components/Pricing'
+import Team from "./components/Team";
+import InstallSection from "./components/InstallSection";
+import FAQ from "./components/FAQ";
 
 export default function App(){
   return(
@@ -17,6 +21,10 @@ export default function App(){
       <Overview></Overview>
       <Overview2></Overview2>
       <Users></Users>
+      <Pricing></Pricing>
+      <Team></Team>
+      <InstallSection></InstallSection>
+      <FAQ></FAQ>
       <Footer></Footer>
     </div>
   )
