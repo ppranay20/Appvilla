@@ -9,6 +9,8 @@ import Pricing from './components/Pricing'
 import Team from "./components/Team";
 import InstallSection from "./components/InstallSection";
 import FAQ from "./components/FAQ";
+import Blogs from "./components/Blogs";
+import Slider from "./components/Slider";
 
 export default function App(){
   return(
@@ -23,8 +25,10 @@ export default function App(){
       <Users></Users>
       <Pricing></Pricing>
       <Team></Team>
+      <Slider></Slider>
       <InstallSection></InstallSection>
       <FAQ></FAQ>
+      <Blogs></Blogs>
       <Footer></Footer>
     </div>
   )

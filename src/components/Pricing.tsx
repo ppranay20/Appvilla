@@ -2,7 +2,7 @@ import PricingCard from "./PricingCard";
 
 export default function Pricing() {
   return (
-    <div className="bg-[#F9F9F9]">
+    <div className="bg-[#F9F9F9]" id="pricing">
         <div className="max-w-[1170px] m-auto text-center py-20">
             <h4 className="text-[16px] text-dpink font-semibold">PRICING</h4>    
             <h1 className="text-[35px] font-bold">Pricing Plan</h1>

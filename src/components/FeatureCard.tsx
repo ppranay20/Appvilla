@@ -7,7 +7,7 @@ interface Card{
 
 export default function FeatureCard({icon,title,description} : Card){
     return(
-        <div className="border-[1px] rounded-md px-5 py-5 bg-white hover:shadow-lg hover:-translate-y-1.5 cursor-pointer transition ease-out duration-300">
+        <div className="max-w-[400px] border-[1px] rounded-md px-5 py-5 bg-white hover:shadow-lg hover:-translate-y-1.5 cursor-pointer transition ease-out duration-300">
             <div className="border w-14 bg-dpink py-4 px-4 my-2 rounded-md shadow-lg">
                 {icon}
             </div>

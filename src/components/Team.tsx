@@ -5,7 +5,7 @@ import team3 from '../assets/TeamImage/team3.jpg'
 
 export default function Team() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="team">
         <div className="max-w-[1170px] m-auto text-center py-20">
             <h4 className="text-[16px] text-dpink font-semibold">PRICING</h4>    
             <h1 className="text-[35px] font-bold">Pricing Plan</h1>

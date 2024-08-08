@@ -3,7 +3,7 @@ import { GoDownload } from "react-icons/go";
 
 export default function overview() {
   return (
-    <div className='max-w-[520px] m-auto flex flex-col gap-20 items-center my-24 md:flex-row md:max-w-[1000px]'>
+    <div className='max-w-[520px] m-auto flex flex-col gap-20 items-center my-24 md:flex-row md:max-w-[1000px]' id='overview'>
         <div className='flex flex-col gap-8'>
             <div className='bg-dpink rounded-lg px-3 py-3 border-[1px] w-12'>
                 <GoDownload color='white' size={22} />
