@@ -15,7 +15,7 @@ export default function ScrollNav(){
     return(
         <div className="bg-white w-full shadow-sm">
             <nav className='flex justify-between px-10 py-3 md:px-24 md:py-4 text-black font-noto text-md items-center font-roboto overflow-x-hidden'>
-                <img src={logo2} className='w-20 h-16 md:w-[120px] md:h-[60px]' />
+                <img src={logo2} className='w-20 h-16 md:w-[150px] md:h-[60px]' />
                 <div className='md:hidden cursor-pointer' onClick={() => setIsMenuOpen(!isMenuOpen)}>
                     <IoReorderThree size={40} />
                 </div>

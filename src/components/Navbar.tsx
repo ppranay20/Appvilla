@@ -30,7 +30,7 @@ export default function Navbar(){
             navColor ? <ScrollNav></ScrollNav> : 
         <div className="bg-[#ff6b81]">
             <nav className='flex justify-between px-10 py-3 md:px-24 md:py-4 text-white font-noto text-md items-center font-roboto overflow-x-hidden'>
-                <img src={logo} className='w-20 h-16 md:w-[120px] md:h-[60px]' />
+                <img src={logo} className='w-20 h-16 md:w-[150px] md:h-[60px]' />
                 <div className='md:hidden cursor-pointer' onClick={() => setIsMenuOpen(!isMenuOpen)}>
                     <IoReorderThree size={40} />
                 </div>
