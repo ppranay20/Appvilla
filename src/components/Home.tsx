@@ -23,7 +23,7 @@ export default function Home(){
     }
 
     return(
-        <div className='bg-dpink w-full' id='home'>
+        <div className='bg-dpink w-full overflow-x-hidden' id='home'>
             <div className='max-w-[1100px] m-auto h-full flex md:flex-row flex-col py-16 items-center'>
                 <motion.div  className='max-h-full flex flex-col md:items-start items-center text-white gap-10 '>
                     <motion.h2 variants={vairant(0.4)} initial="initial" whileInView="animate" viewport={{once : true}} className='text-[39px] font-bold leading-10'>A Powerful App For<br></br> Your Business.</motion.h2>
