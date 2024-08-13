@@ -1,6 +1,6 @@
 import overviewimg from '../assets/overviewimg.png'
 import { GoDownload } from "react-icons/go";
-import { easeOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function overview() {
   return (

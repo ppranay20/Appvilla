@@ -5,7 +5,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { BsDatabaseCheck } from "react-icons/bs";
 import { MdOutlineSecurity } from "react-icons/md";
 import FeatureCard from "./FeatureCard";
-import { animate, easeOut, motion } from 'framer-motion';
+import { easeOut, motion } from 'framer-motion';
 
 export default function Features(){
     const animateCards = (delay : number) => {
